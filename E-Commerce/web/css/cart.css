@@ -1,0 +1,90 @@
+.btnCart {
+    width: 200px;
+    margin-top: 5px;
+    height: 30px;
+    background-color: rgba(255, 176, 130, 0.959);
+    border: none;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+
+.btnCart:hover {
+    background-color: rgba(230, 136, 82, 0.959);
+    transition-duration: 0.3s;
+}
+
+#gotoMarketPlace {
+    position: fixed;
+    background-size: cover;
+    background-image: url("../img/marketplace.png");
+    height: 150px;
+    width: 170px;
+    top: 40%;
+    padding-top: 20px;
+    text-align: center;
+    left: 85%;
+    border-radius: 8px;
+    transition-duration: 0.2s;
+}
+
+#gotoMarketPlace:hover {
+    padding: 5px;
+    box-shadow: 5px 10px 18px lightgrey;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    height: 173px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#buyBtn {
+    width: 40%;
+    height: 30px;
+    background-color: rgba(255, 176, 130, 0.959);
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border: none;
+    font-size: 1.1rem;
+    margin-top: 11px;
+    transition-duration: 0.3s;
+}
+
+#buyBtn:hover {
+    background-color: rgba(238, 142, 86, 0.959);
+    transition-duration: 0.3s;
+    border: solid 2px rgb(255, 149, 49)
+}
+
+#totDiv {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: 5.5%;
+}
+
+#totProducts {
+    height: 24px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+#totCost {
+    margin-bottom: 1px;
+    height: 24px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    text-align: center;
+    font-size: 1rem;
+}
